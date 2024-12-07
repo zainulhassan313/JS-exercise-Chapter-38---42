@@ -155,13 +155,13 @@ function countConsecutiveVowels(sentence) {
     
     let count = 0;
     
-    // Loop through the sentence, checking each pair of consecutive characters
+
     for (let i = 0; i < sentence.length - 1; i++) {
       
       const currentChar = sentence[i];
       const nextChar = sentence[i + 1];
   
-      // Check if both characters are vowels using a switch statement
+      
       switch (true) {
         case vowels.includes(currentChar) && vowels.includes(nextChar):
           count++; 
